@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 14px;
+    background: black;
+    box-shadow: 10px 20px 30px;
+}
+
+.todo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #b3b0b0;
+}
+
+.item_list {margin: 19px;}
+
+h3.emptyMsg {
+    font-size: 19px;
+    margin: 12px 0;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.item_container {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 408px;
+    margin: 10px ;
+}
+
+.right-side {
+    margin: 0px 2px;
+}
+
+input#input {
+    width: 352px;
+    height: 38px;
+    border: 2px solid #838383;
+    padding: 7px;
+    font-size: 18px;
+}
+
+button.btn.btn-primary {
+    border-radius: 3px;
+}
+
+.add_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#save-btn{
+    background-color: #ffd332;
+    display: none;
+}
+
+h1 {
+    padding: 10px;
+    font-family: fantasy;
+    color: #f5f4b3;
+}
+
+.input-group.mb-3 {
+    width: 410px;
+}
+
+ul#parentList {
+    width: 410px;
+    margin: 17px 0;
+}
+
+.Delete{
+    background-color: rgb(241, 47, 47);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 6px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: revert;
+    margin: 0 5px;
+}
+
+.Edit {
+    background-color: #ffd332;
+    border: none;
+    padding: 4px;
+    font-size: 16px;
+    font-family: revert;
+    border-radius: 3px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    margin: 0 95px;
+}
+
+h3.text {
+    width: 67%;
+}
+
+.float-end {
+    margin: auto;
+    width: 26%;
+}
+
+.d-flex {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width:425px){
+    .todo-list {
+        width: 310px;
+    }
+    .input-group.mb-3 {
+        width: 301px;
+    }
+    ul#parentList {
+        width: 300px;
+    }  
+}
